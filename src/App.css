@@ -1,38 +1,79 @@
 .App {
   text-align: center;
+  padding: 20px;
+  font-family:'Times New Roman', Times, serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  margin: 10px;
+  color:#660000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-bar{
+  width: 300px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn{
+  background-color: #660000;
   color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding:10px;
+  margin:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table, th, td {
+  border: 1px solid #A73121;
+  height:40px; 
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  padding:5px;
+}
+
+th {
+  background-color: #F2E8C6;
+  color: #952323;
+  font-size: 20px;
+}
+
+table{
+  padding:10px;
+  margin: 10px 0;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  background-color: #660000;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px 5px;
+  
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin:20px;
 }
